@@ -1,6 +1,15 @@
 Ingest Wurrly Songs
 ---
 
+## Project Overview
+1. Data
+● The following JSON file provides the data for this project:
+○ https://s3-us-west-2.amazonaws.com/wurrly-data/test/songs.json
+● Create a SQL schema that fits the data
+
+● Application ingests the JSON files and populates an SQL
+compliant in-memory database with the data in the files
+
 ## Installation
 
 ### Prerequisites
