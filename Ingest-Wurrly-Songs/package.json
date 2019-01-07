@@ -1,0 +1,27 @@
+{
+  "name": "ingest-wurrly-songs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Script to ingest wurrly json data into DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js | ./node_modules/.bin/bunyan -o short",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "bunyan": "^1.8.12",
+    "dotenv": "^6.2.0",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "^5.1.1",
+    "should": "^13.2.3"
+  },
+  "author": "Sridhar Gudur <sridharchaildn@gmail.com>",
+  "license": "MIT"
+}
